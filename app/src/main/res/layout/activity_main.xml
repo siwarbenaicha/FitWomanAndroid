@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.sim.fitwoman.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal|center"
+        android:contentDescription="@string/todo3"
+        android:src="@drawable/logo4" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Mor"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/MeditText900"
+        android:layout_width="315dp"
+        android:layout_height="67dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/mname2"
+        android:drawableStart="@drawable/mname2"
+        android:ems="10"
+
+        android:hint="@string/your_name18042019"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/MeditText"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/mscale"
+            android:drawableStart="@drawable/mscale"
+            android:ems="10"
+            android:hint="@string/weight"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/CR95"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/MeditText2"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/mmeter"
+            android:drawableStart="@drawable/mmeter"
+            android:ems="10"
+            android:hint="@string/height"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/CR94"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/MeditText3"
+            android:layout_width="267dp"
+            android:layout_height="63dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/mcacke"
+            android:drawableStart="@drawable/mcacke"
+            android:ems="10"
+            android:hint="@string/age"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/CR93"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/MimageView"
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+
+</LinearLayout>
+
+
